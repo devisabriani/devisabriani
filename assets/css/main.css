@@ -239,11 +239,14 @@ input, select, textarea {
 		text-align: right;
 	}
 
-	/* Giustificazione personalizzata */
-	.justified {
-		text-align: justify;
-		text-justify: inter-word;
+	.justified-box {
+	text-align: justify;
+	text-justify: inter-word;
+	max-width: 700px; /* puoi ridurre a 600px o aumentare a piacere */
+	margin: 0 auto; /* centra il blocco */
+	padding: 0 1em; /* margine interno per mobile */
 	}
+
 
 /* Container */
 
