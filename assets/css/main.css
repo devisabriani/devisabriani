@@ -239,6 +239,12 @@ input, select, textarea {
 		text-align: right;
 	}
 
+	/* Giustificazione personalizzata */
+	.justified {
+		text-align: justify;
+		text-justify: inter-word;
+	}
+
 /* Container */
 
 	.container {
