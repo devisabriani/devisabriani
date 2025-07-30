@@ -242,11 +242,13 @@ input, select, textarea {
 	.justified-box {
 	text-align: justify;
 	text-justify: inter-word;
-	max-width: 700px;         /* larghezza massima del blocco */
+	max-width: 700px;         /* limita la larghezza */
+	width: 100%;              /* su dispositivi piccoli */
 	margin-left: auto;
-	margin-right: auto;       /* centro orizzontalmente */
-	padding: 0 1em;           /* margini interni per mobile */
+	margin-right: auto;
+	display: block;
 	}
+
 
 
 
