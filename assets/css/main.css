@@ -240,14 +240,16 @@ input, select, textarea {
 	}
 
 	.justified-box {
-	text-align: justify;
+	text-align: justify !important;
 	text-justify: inter-word;
-	max-width: 700px;         /* limita la larghezza */
-	width: 100%;              /* su dispositivi piccoli */
+	max-width: 700px;
 	margin-left: auto;
 	margin-right: auto;
+	width: 100%;
+	padding: 0 1em;
 	display: block;
 	}
+
 
 
 
